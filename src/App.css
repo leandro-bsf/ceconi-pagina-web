@@ -1,38 +1,116 @@
-.App {
+.logo_menu{
+  width: 100px;
+  height: 70px;
+}
+.Barra_menu{
+  background-color: transparent;
+  width: 100%;
+  height: 70px;
+}
+
+.me-auto{
+  margin-left: 350px;
+  font-size: 20px;
+  color: black;
+  font-family: 'Poppins';
+  
+}
+
+.div_superior{
+   background-image: url('../src//imagens//caminhao_opacato.png');
+   background-size: cover;
+ 
+}
+.div_capa{
+  opacity: 0.9;
+  background: linear-gradient(45deg, rgb(0, 0, 0), rgb(241, 116, 0));
+  width: 85%;
+  height: 550px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  border-radius: 20px;
+}
+.logo_whts{
+  
+  width: 40px;
+  height: 40px;
+}
+.div_solicitar_atend{
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  height: 50px;
+  
+  margin-top: 200px;
+  margin-left: 120px;
+  width: 300px;
+  padding: 5px;
+  align-items: center;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.imagem-div{
+  margin-left: auto;
+  padding: 20px;
+  width: 40%;
+  height: 95%;
 }
+.div_solicitar_atend span{
+ font-size: 20px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.div_text{
+ 
+  width: 50%;
+  height: 90%;
+  padding: 50px;
+  
+ 
+}
+.div_text h2 , h4{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.fone_menu , IoCall{
+  color: orange;
+  font-size: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 750px)  {
+  .logo_menu{
+    width: 100px;
+    height: 70px;
   }
-  to {
-    transform: rotate(360deg);
+  .fone_menu{ display: none;}
+
+  .me-auto{
+   margin:0;
+   padding: 20px;
+   right: 0;
+   width:40%;
+   
+   position: absolute;
+   background-color: rgb(150, 150, 150);
+  }
+  .div_capa{
+    display: block;
+    height: 500px;
+  }
+  .imagem-div{
+ width: 100%;
+ height: 300px;
+  }
+  .div_text{
+    height: 40%;
+    width: 100%;
+  }
+  .div_text h2 , h4{
+    font-size: 15px;
+  }
+  .div_solicitar_atend{
+   margin: 0;
+   margin-top: 20px;
+   width: 100%;
+  }
+  .div_solicitar_atend span{
+    font-size: 15px;
   }
 }

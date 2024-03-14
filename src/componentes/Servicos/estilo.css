@@ -1,0 +1,187 @@
+.Principal{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  top: 650px;
+ 
+  width: 100%;
+  position: absolute;
+  text-align: center;
+
+   
+  
+}
+.Titulo{
+  background-color: #d9d9d9;
+  width: 100%;
+  height: 60px;
+  margin-top: 120px;
+  padding: 5px;
+  
+
+}
+.itens{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 150px;
+  margin-top: 30px;
+  width: 100%;
+
+  text-align: center;
+
+}
+.esquerda{
+  width: 45%;
+  position: relative; 
+  height: 450px;
+
+
+
+
+}
+.imagem{
+  background-color: rgb(147, 52, 52);
+  position: absolute; /* Necessário para posicionar à esquerda da div externa */
+  right: 0; /* Posiciona à esquerda da div externa */
+  top: 0; 
+  width: 70%;
+  height: 100%;
+  
+
+
+}
+.div-texto{
+  padding: 10px;
+  text-align: left;
+  width: 50%;
+}
+.imagem_esquerda{
+  background-color: rgb(147, 52, 52);
+  position: absolute; /* Necessário para posicionar à esquerda da div externa */
+  left: 0; /* Posiciona à esquerda da div externa */
+  top: 0; 
+  width: 70%;
+  height: 100%;
+  
+}
+
+.divisao{
+  width: 4px;
+  background-color: rgb(154, 154, 154);
+  height: 560px;
+
+ 
+}
+.circulo{
+  position: absolute;
+  top: 195px;
+  left: 49.8%;
+  padding: 2px;
+
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  background-color: rgb(154, 154, 154);
+}
+.direita{
+  width: 45%;
+  height: 530px;
+  position: relative; 
+  
+
+ 
+}
+.Imagem_servico{
+  width: 100%;
+  height: 100%;
+
+}
+.div-texto-esquerda{
+
+  padding: 15px;
+  text-align: left;
+  width: 50%;
+  position: absolute;
+  right: 0;
+}
+
+.circulo_botton{
+  width: 25px;
+  height: 25px;
+  position: relative;
+  border-radius: 51px;
+  right:621px;
+  top: 270px;
+  background-color: rgb(154, 154, 154);
+}
+
+@media (max-width: 750px)  {
+  .circulo_botton{display: none;}
+  .divisao{display: none;}
+  .circulo{display: none;}
+  .itens{
+    display: block;
+    width: 85%;
+    padding: 0;
+    margin: auto;
+    background-color: aquamarine;
+  }
+  
+  .Principal{
+    background-color: blueviolet;
+    width: 100%;
+    top: 620px;
+   
+  }
+ 
+ 
+
+  .direita{
+    background-color: blueviolet;
+    margin: auto;
+    padding: 0;
+  
+    
+    height: 300px;
+    
+  }
+  .esquerda{
+    width: 100%;
+  
+    text-align: center;
+  }
+  .Titulo_servico{
+    font-size: 15px;
+    
+  }
+ .div-texto-esquerda{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+ }
+ .div-texto-esquerda span{
+  font-size: 15px;
+ }
+ 
+ .Imagem_servico{
+  width: 100%;
+  height: 300px;
+  margin: auto;
+  padding: 0;
+ }
+ .div-texto{
+  width: 100%;
+  margin: 0;
+  background-color: brown;
+  padding: 0;
+  text-align: center;
+ }
+ .imagem , .imagem_esquerda{
+  height: 300px;
+  width: 100%;
+  background-color: blue;
+ }
+
+  
+}
