@@ -9,7 +9,7 @@ import './estilo.css'
   export  default function  Servicos(){
     return ( 
     <div className='Principal'>
-       <div className='Titulo'> <h2>Servico</h2></div>
+       <div className='Titulo'> <h2>Serviços</h2></div>
     <div className='itens'>
     <motion.div className='direita'
      initial={{opacity: 0 , x: -10}}
@@ -22,6 +22,7 @@ import './estilo.css'
     </motion.div>
     <div className='circulo'></div>
     <div className='divisao'></div>
+   
 
     < motion.div className='esquerda'
      initial={{opacity: 0 , x: 10}}
@@ -37,7 +38,8 @@ import './estilo.css'
         </span>
         </div>
     </motion.div>
-  
+    <div className='Div_mobile'></div>
+    
     <motion.div className='esquerda'
     initial={{opacity: 0 , x: -10}}
     whileInView={{opacity: 1 , x: 0}}
@@ -64,7 +66,8 @@ import './estilo.css'
          <img className='Imagem_servico' src={instalacao} alt='instalacao'/>
          </div>
     </motion.div>
-   
+    <div className='Div_mobile'></div>
+
     <motion.div  className='direita'
      initial={{opacity: 0 , x: -10}}
      whileInView={{opacity: 1 , x: 0}}
@@ -91,7 +94,7 @@ import './estilo.css'
          </span>
       </div>
 
-      
+       <div className='Div_mobile'></div>
     </motion.div>
     
     <motion.div div className='esquerda'
@@ -118,7 +121,7 @@ import './estilo.css'
            <img className='Imagem_servico' src={caminhao2} alt='caminao'/>
          </div>
     </motion.div>
-    
+    <div className='Div_mobile'></div>
 
     <div className='circulo_botton'></div>
     </div>

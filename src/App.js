@@ -8,6 +8,7 @@ import { IoCall } from "react-icons/io5";
 import teste  from  '../src/imagens/caminhao_banner.png'
 import whtas from '../src/imagens/whatsapp.png'
 import Servicos from '../src/componentes/Servicos'
+import Contato from  '../src/componentes/Contato'
 function App() {
   return (
     <div className="App">
@@ -47,6 +48,9 @@ function App() {
 
         <div className='Div_servicos'>
         <Servicos/>
+        </div>
+        <div className='Div_Contato'>
+             <Contato/>
         </div>
    
     </div>
