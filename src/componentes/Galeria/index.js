@@ -49,7 +49,7 @@ function App() {
   };
   return (
     <container className="App">
-     
+      <div className='Titulo_galeria'>Galeria</div>
       <div className="image-gallery">
         
         {images.map((image, index) => (
@@ -57,6 +57,7 @@ function App() {
             key={index}
             src={image}
             alt='imagens'
+          
             onClick={() => handleImageClick(index)}
           />
         ))}

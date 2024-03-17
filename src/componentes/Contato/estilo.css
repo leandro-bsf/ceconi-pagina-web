@@ -1,0 +1,96 @@
+.Contato{
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    text-align: center;
+}
+.div_informacao{
+    width: 50%;
+    text-align: center;
+    
+}
+.titulo_form{
+    color: orange;
+
+}
+.logo_contato{
+    width: 220px;
+}
+.div_form{
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    padding-top: 65px;
+  
+}
+.titulo_form{
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: bold;
+    margin-left:-150px;
+    color: rgb(209, 140, 12);
+}
+.botao_contato{
+    width: 90%;
+    height:30px;
+    margin: 20px;
+    border: 2px solid #c5c8ca ;
+    display: block;
+ }
+ .Dados_contato{
+    display: block;
+    color: black;
+     
+    font-size: 15px;
+    text-align: left;
+   
+    padding: 10px;
+}
+.Dados_contato h4{
+color: black;
+}
+.Dados_contato span{
+    font-size: 20px;
+
+    padding: 2px;
+}
+.enviar{
+    width: 80%;
+    height:30px;
+    margin: auto;
+    border: 2px solid #c5c8ca ;
+    display: block;
+
+}
+@media (max-width: 750px) {
+        .Contato{
+            display: block;
+            padding: 10px;
+           
+         
+        }
+        .div_informacao{
+         
+           width: 100%;
+           align-items: center;
+        }
+        .div_form{
+            width: 100%;
+            align-items: center;
+            text-align: center;
+            padding: 10%;
+        }
+        .logo_contato{
+            width: 150px;
+        }
+        .Dados_contato h4, span{
+            font-size: 17px;
+            margin: 10px;
+            padding: 5px;
+        }
+        .titulo_form{
+            font-size: 20px;
+            margin: auto;
+        }
+
+}

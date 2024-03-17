@@ -55,3 +55,31 @@
   .right {
     right: 10px;
   }
+  .Titulo_galeria{
+    padding: 5px;
+    width: 100%;
+    height: 50px;
+    background-color: #d9d9d9;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    font-family: 'Poppins';
+  }
+
+  @media (max-width: 750px){
+    .image-gallery{
+         width: 20%;
+         height: 50px;
+         margin: auto;
+         padding: 1px;
+         gap: 0;
+       
+    }
+    .Titulo_galeria{
+       padding: 10px;
+       font-size: 15px;
+       height: 40px;
+      
+    }
+    
+  }

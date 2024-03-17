@@ -1,0 +1,116 @@
+
+.div_capa{
+ 
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(241, 116, 0));
+    width: 85%;
+    height: 550px;
+  
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin: auto;
+   
+    border-radius: 20px;
+  }
+  
+  .logo_whts{
+    
+    width: 40px;
+    height: 40px;
+  }
+  .div_solicitar_atend{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    height: 50px;
+    
+    margin-top: 200px;
+    margin-left: 120px;
+    width: 300px;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+  }
+  .imagem-div{
+    margin-left: auto;
+    padding: 20px;
+    width: 40%;
+    height: 95%;
+  }
+  .div_solicitar_atend span{
+   font-size: 20px;
+  
+  }
+  .div_text{
+   
+    width: 50%;
+    height: 90%;
+    padding: 50px;
+    
+   
+  }
+  .Div_Contato{
+    width: 95%;
+    height: 750px;
+    margin: 5px;
+    position: relative;
+    top: 2450px;
+    align-items: center;
+  }
+
+
+  @media (max-width: 750px)  {
+    .logo_menu{
+      width: 100px;
+      height: 70px;
+    }
+    .div_capa{
+      z-index: -500;
+  
+    }
+  
+    .fone_menu{ display: none;}
+   
+    .div_capa{
+      display: block;
+      height: 250px;
+      width: 100%;
+      margin-top: 70px;
+  
+    }
+    .imagem-div{
+    display: none;
+    }
+    .div_text{
+      height: 40%;
+      width: 100%;
+    }
+    
+    .div_text h2 , h4{
+      font-size: 15px;
+      color: black;
+    }
+    .div_solicitar_atend{
+     margin: 0;
+     margin-top: 20px;
+     width: 100%;
+    }
+    .div_solicitar_atend span{
+      font-size: 11px;
+    }
+    .Div_Contato{
+       top: 2700px;
+       height: 500px;
+    }
+    .Galeria{
+      top: 3150px;
+      height: 1500px;
+    }
+    .Div_sobre_nos{
+   top: 2800px;
+    }
+    .Div_roda_pe{
+      width: 100%;
+      top: 4100px;
+    }
+  }
+  

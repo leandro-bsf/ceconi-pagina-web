@@ -9,42 +9,21 @@ import teste  from  '../src/imagens/caminhao_banner.png'
 import whtas from '../src/imagens/whatsapp.png'
 import Servicos from '../src/componentes/Servicos'
 import Contato from  '../src/componentes/Contato'
+import Menu_Superior from './componentes/Menu_superior';
+import Galeria from './componentes/Galeria'
+import Sobre_nos from '../src/componentes/Sobre_nos'
+import Roda_pe from '../src/componentes/Roda_pe'
+import Capa from '../src/componentes/Capa'
+import { IoLogoWhatsapp } from "react-icons/io";
 function App() {
   return (
     <div className="App">
  
         <div className='div_superior'>
-             <Navbar expand="lg" className="Barra_menu">
-                 <Container >
-              <img src={logo_barra} className='logo_menu' alt='logo'/>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Servicos</Nav.Link>
-            <Nav.Link href="#link">Sobre</Nav.Link>
-            <Nav.Link href="#link">Galeria</Nav.Link>
-            <Nav.Link href="#link">Contato</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-        <Nav.Link href="#link" className='fone_menu'> <IoCall /> 4691417577</Nav.Link>
-            </Container>
-        </Navbar>
-        
-        <div className='div_capa'>
-        <div className='div_text'>
-            <h2 className='text_div'>CECONI INSTALAÇÕES</h2>
-            <h4 className='text_div'>Atendimento de Excelência</h4>
-              <div className='div_solicitar_atend' >
-                  <img src={whtas} className='logo_whts' alt='logo'/>
-                  <span>Solicite um Orçamento</span>
-              </div>
-         </div>
-             <img src={teste}alt="Imagem" className="imagem-div" />
-
-
+        <Menu_Superior/>
+        <Capa/>
         </div>
-           
-        </div>
+
 
         <div className='Div_servicos'>
         <Servicos/>
@@ -52,7 +31,17 @@ function App() {
         <div className='Div_Contato'>
              <Contato/>
         </div>
-   
+
+        <div className='Div_sobre_nos'>
+            <Sobre_nos/>
+        </div>
+        <div className='Galeria'>
+           <Galeria/>
+        </div>
+        <div className='Div_roda_pe'>
+         <Roda_pe/>
+        </div>
+        <IoLogoWhatsapp  className='botao_whtas'/>
     </div>
   );
 }
