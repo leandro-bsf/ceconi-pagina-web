@@ -50,7 +50,11 @@
     }
     .sobre_nos h2{
         font-size: 20px;
+        color: black;
         padding: 0;
+    }
+    .sobre_nos span{
+         color: black;
     }
     .foto{
         width: 95%;
