@@ -9,15 +9,11 @@ export  default function  Contato (){
           <h3>Informações</h3>
            <div className='Dados_contato'>
            
-            <span>  WhatsApp: +554699170-4814</span>
+            <span>  WhatsApp: +554699170-4814</span> <br/>
+            <span>  Endereço: Dois Vizinhos - PR</span> <br/>
+            <span>E-mail:  email@gmail.com    </span>
            </div>
-             <div className='Dados_contato' >
-               <span>  Endereço: Dois Vizinhos - PR</span>
-             </div>
            
-            <div className='Dados_contato' >
-                <span>E-mail:  email@gmail.com    </span>
-            </div>
          
          
          </div> 

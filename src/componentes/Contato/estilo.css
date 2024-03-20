@@ -3,6 +3,8 @@
     padding: 40px;
     align-items: center;
     text-align: center;
+    width: 100%;
+   
 }
 .div_informacao{
     width: 50%;
@@ -40,15 +42,13 @@
  .Dados_contato{
     display: block;
     color: black;
-     
-    font-size: 15px;
-    text-align: left;
+    margin: auto;
+ 
+    font-weight: bold;
    
     padding: 10px;
 }
-.Dados_contato h4{
-color: black;
-}
+
 .Dados_contato span{
     font-size: 20px;
 
@@ -61,6 +61,11 @@ color: black;
     border: 2px solid #c5c8ca ;
     display: block;
 
+}
+.div_form button{
+    font-size: 15px;
+    background-color: black;
+    color: white;
 }
 @media (max-width: 750px) {
         .Contato{
@@ -83,14 +88,19 @@ color: black;
         .logo_contato{
             width: 150px;
         }
-        .Dados_contato h4, span{
-            font-size: 17px;
-            margin: 10px;
-            padding: 5px;
-        }
+           
+       .Dados_contato span{
+        font-size: 14px;
+       }
         .titulo_form{
             font-size: 20px;
             margin: auto;
         }
+        .div_informacao h3{
+            font-size: 20px;
+        }
+        .div_form input{
+            font-size: 15px
+        };
 
 }

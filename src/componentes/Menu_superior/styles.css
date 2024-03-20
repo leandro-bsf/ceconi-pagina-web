@@ -3,7 +3,7 @@
 
 header{
   width: 100%;
-  background-color: #dbd9df;
+  background-color: transparent;
 
 }
 
@@ -17,9 +17,9 @@ header .container {
 }
 
 header img {
-  width: 90px;
+  width: 150px;
   margin-right: 0;
-  padding: 15px 0;
+  
 }
 header nav {
   display: flex;

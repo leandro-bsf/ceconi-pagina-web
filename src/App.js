@@ -1,47 +1,79 @@
 
-import './App.css';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import logo_barra from  './imagens/logo.png'
-import { IoCall } from "react-icons/io5";
-import teste  from  '../src/imagens/caminhao_banner.png'
-import whtas from '../src/imagens/whatsapp.png'
 import Servicos from '../src/componentes/Servicos'
 import Contato from  '../src/componentes/Contato'
-import Menu_Superior from './componentes/Menu_superior';
+import React, { useState } from 'react';
 import Galeria from './componentes/Galeria'
 import Sobre_nos from '../src/componentes/Sobre_nos'
 import Roda_pe from '../src/componentes/Roda_pe'
 import Capa from '../src/componentes/Capa'
 import { IoLogoWhatsapp } from "react-icons/io";
+import './App.css'
+import logo from   '../src/imagens/logo.png'
 function App() {
+
+  const [classOn, setClassOn] = useState(false);
+
   return (
     <div className="App">
- 
-        <div className='div_superior'>
-        <Menu_Superior/>
-        <Capa/>
+          <div className='div_superior'>
+          <header>
+    <div className="container">
+      <img className="logo-cyan" src={logo} alt="logo Ceconi"/>
+
+      <div className = { classOn ? 'menu-section on' : 'menu-section'} onClick={() => setClassOn(!classOn)}>
+           <div className="menu-toggle">
+              <div className="one"></div>
+              <div className="two"></div>
+              <div className="three"></div>
+           </div>
+
+           <nav>
+            <ul>
+              <li>
+                <a href="#servicos"  >SERVIÇOS</a>
+              </li>
+              <li>
+                <a href="/"  >SOBRE</a>
+              </li>
+              <li>
+                <a href="/" >GALERIA</a>
+              </li>
+          
+              <li>
+                <a href="/" >CONTATO</a>  
+              </li>
+             
+            </ul>
+            
+          </nav>
+
+          </div>
+        </div>
+
+      </header>
+
+        <Capa/> 
         </div>
 
 
-        <div className='Div_servicos'>
-        <Servicos/>
-        </div>
-        <div className='Div_Contato'>
-             <Contato/>
+        <div className='Div_servicos' id='servicos' >
+        <Servicos/> 
+       
         </div>
 
-        <div className='Div_sobre_nos'>
-            <Sobre_nos/>
-        </div>
-        <div className='Galeria'>
-           <Galeria/>
-        </div>
-        <div className='Div_roda_pe'>
-         <Roda_pe/>
-        </div>
-        <IoLogoWhatsapp  className='botao_whtas'/>
+         <div className='Div_sobre_nos'>
+          <Sobre_nos/>
+        </div> 
+
+       
+       
+         <Galeria/> 
+      
+
+         <div className='Div_roda_pe'>
+          <Roda_pe/> 
+        </div> 
+         <IoLogoWhatsapp  className='botao_whtas'/> 
     </div>
   );
 }

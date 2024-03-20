@@ -1,8 +1,12 @@
-import React, {useState} from 'react';
+import React, {useState, useRef} from 'react';
 import { FiLogOut } from 'react-icons/fi';
 import './styles.css';
 import logo from   '../../imagens/logo.png'
-const Menu_Superior = () => {
+
+
+export  default function Menu_Superior ({ scrollToServicos, scrollToContato, scrollToSobreNos, scrollToGaleria }){ 
+
+
 
 const [classOn, setClassOn] = useState(false);
       
@@ -21,17 +25,17 @@ const [classOn, setClassOn] = useState(false);
            <nav>
             <ul>
               <li>
-                <a href="/">SERVIÇOS</a>
+                <a href="/" onClick={scrollToServicos} >SERVIÇOS</a>
               </li>
               <li>
-                <a href="/">SOBRE</a>
+                <a href="/" onClick={scrollToSobreNos}  >SOBRE</a>
               </li>
               <li>
-                <a href="/">GALERIA</a>
+                <a href="/"onClick={scrollToGaleria} >GALERIA</a>
               </li>
           
               <li>
-                <a href="/">CONTATO</a>  
+                <a href="/"onClick={scrollToContato} >CONTATO</a>  
               </li>
              
             </ul>
@@ -44,6 +48,4 @@ const [classOn, setClassOn] = useState(false);
       </header>
 
       )
-    }
-    
-export default Menu_Superior;
+  }
