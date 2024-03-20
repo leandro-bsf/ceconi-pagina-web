@@ -61,18 +61,20 @@ function App() {
        
         </div>
 
-         <div className='Div_sobre_nos'>
-          <Sobre_nos/>
-        </div> 
+        <Sobre_nos/>
+        <div className='Div_galeria'>
+        <Galeria/>
+        </div>
+        
+          <div className='Div_Contato'>
+          <Contato/>
+         </div> 
 
+          <div className='Div_roda_pe'>
+              <h2> teste</h2>
+          </div>
+          {/* <Roda_pe/>  */}
        
-       
-         <Galeria/> 
-      
-
-         <div className='Div_roda_pe'>
-          <Roda_pe/> 
-        </div> 
          <IoLogoWhatsapp  className='botao_whtas'/> 
     </div>
   );

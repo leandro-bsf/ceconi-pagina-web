@@ -1,3 +1,4 @@
+
 .image-gallery {
   display: flex;
   flex-wrap: wrap;
@@ -62,19 +63,22 @@
   background-color: #d9d9d9;
   font-size: 30px;
   text-align: center;
-  margin: auto;
+  margin-top: 20px;
+  
   font-family: 'Poppins';
 }
 
 @media (max-width: 750px){
   .image-gallery{
        width: 20%;
-       height: 50px;
+    
+       height: 550px;
        margin: auto;
        padding: 1px;
        gap: 0;
      
   }
+ 
   .Titulo_galeria{
      padding: 10px;
      font-size: 15px;

@@ -48,7 +48,7 @@ function App() {
     setSelectedImageIndex(null);
   };
   return (
-    <container className="App">
+    <container className="Galeria">
       <div className='Titulo_galeria'>Galeria</div>
       <div className="image-gallery">
         

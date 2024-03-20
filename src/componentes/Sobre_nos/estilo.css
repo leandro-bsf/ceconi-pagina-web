@@ -40,7 +40,11 @@
     .sobre_nos{
         display: block;
         width: 100%;
-        height: 650px;
+       
+        top:1150px;
+    
+       position: relative;
+        height: 600px;
         
     }
     .text_sobre{
