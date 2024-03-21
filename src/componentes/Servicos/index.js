@@ -106,7 +106,7 @@ import './estilo.css'
     <div className='div-texto-esquerda'>
     <h3 className='Titulo_servico'>Serviços de Caminhão Munck</h3>
         <span className='text_servicos'>
-        Conte com nossos serviços de caminhão munck para lidar com suas necessidades de elevação e movimentação de cargas. Seja para projetos de construção, mudanças ou outras demandas, nosso caminhão munck oferece eficiência e praticidade na movimentação de materiais pesados, proporcionando soluções adaptadas às suas necessidades.
+        Conte com nossos serviços de caminhão munck para lidar com suas necessidades de elevação e movimentação de cargas. Seja para projetos de construção, mudanças ou outras demandas, nosso caminhão munck oferece eficiência e praticidade na movimentação de materiais pesados.
         </span>
         </div>
     </motion.div>
@@ -121,7 +121,7 @@ import './estilo.css'
            <img className='Imagem_servico' src={caminhao2} alt='caminao'/>
          </div>
     </motion.div>
-    <div className='Div_mobile'></div>
+ 
 
     <div className='circulo_botton'></div>
     </div>

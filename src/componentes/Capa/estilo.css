@@ -70,23 +70,24 @@
       height: 250px;
       width: 95%;
       margin-top: 50px;
-      background: rgb(141, 66, 4);
+      background: rgb(3, 2, 1);
      
      
   
     }
+    .text_div{
+      color: white;
+    }
+  
     .imagem-div{
     display: none;
     }
     .div_text{
       height: 40%;
       width: 100%;
+    
     }
     
-    .div_text h2 , h4{
-      font-size: 15px;
-      color: rgb(255, 255, 255);
-    }
     .div_solicitar_atend{
      margin: 0;
      margin-top: 40px;
@@ -95,20 +96,6 @@
     .div_solicitar_atend span{
       font-size: 11px;
     }
-    .Div_Contato{
-       top: 2700px;
-       height: 500px;
-    }
-    .Galeria{
-      top: 3150px;
-      height: 1500px;
-    }
-    .Div_sobre_nos{
-   top: 2800px;
-    }
-    .Div_roda_pe{
-      width: 100%;
-      top: 4100px;
-    }
+    
   }
   

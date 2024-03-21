@@ -56,7 +56,7 @@ function App() {
         </div>
 
 
-        <div className='Div_servicos '  >
+        <div className='Div_servicos'  >
         <Servicos/> 
         </div>
         
@@ -72,7 +72,7 @@ function App() {
         <div className='Contato_Div'>   <Contato/> </div>
         <div className='Roda_pe_div'> <Roda_pe/></div>
        
-{/* <IoLogoWhatsapp  className='botao_whtas'/>  */}
+ <IoLogoWhatsapp  className='botao_whtas'/>  
     </div>
   );
 }
