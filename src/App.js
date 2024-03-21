@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="App">
-          <div className='div_superior'>
+              <div className='div_superior'>
           <header>
     <div className="container">
       <img className="logo-cyan" src={logo} alt="logo Ceconi"/>
@@ -56,26 +56,23 @@ function App() {
         </div>
 
 
-        <div className='Div_servicos' id='servicos' >
+        <div className='Div_servicos '  >
         <Servicos/> 
-       
+        </div>
+        
+        <div className='Div_sobre_nos'>
+        <Sobre_nos/>
         </div>
 
-        <Sobre_nos/>
         <div className='Div_galeria'>
         <Galeria/>
         </div>
-        
-          <div className='Div_Contato'>
-          <Contato/>
-         </div> 
 
-          <div className='Div_roda_pe'>
-              <h2> teste</h2>
-          </div>
-          {/* <Roda_pe/>  */}
+
+        <div className='Contato_Div'>   <Contato/> </div>
+        <div className='Roda_pe_div'> <Roda_pe/></div>
        
-         <IoLogoWhatsapp  className='botao_whtas'/> 
+{/* <IoLogoWhatsapp  className='botao_whtas'/>  */}
     </div>
   );
 }

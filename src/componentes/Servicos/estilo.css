@@ -3,22 +3,23 @@
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
- 
+  height: auto;
   text-align: center;
-
+  padding: 20px;
+ 
    
   
 }
 .Titulo{
-  background-color: #d9d9d9;
+  padding: 5px;
   width: 100%;
-  height: 60px;
-  margin-top: 40px;
-  padding: 10px;
-  font-family: 'Poppins';
-  margin-bottom: 10px;
+  height: 50px;
+  background-color: #d9d9d9;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
   
-
+  font-family: 'Poppins';
 }
 .itens{
   display: flex;
@@ -31,13 +32,12 @@
   text-align: center;
 
 }
-.esquerda{
+
+.direita , .esquerda{
   width: 45%;
-  position: relative; 
   height: 450px;
-
-
-
+  position: relative; 
+  font-size: 20px;
 
 }
 .imagem{
@@ -57,6 +57,7 @@
   font-size: 15px;
   width: 50%;
 }
+
 .imagem_esquerda{
   background-color: rgb(147, 52, 52);
   position: absolute; /* Necessário para posicionar à esquerda da div externa */
@@ -77,7 +78,7 @@
 .circulo{
   position:absolute;
  left: 49.8%;
- top: 978px;
+ top: 770px;
   padding: 2px;
 
   width: 25px;
@@ -85,28 +86,11 @@
   border-radius: 50px;
   background-color: rgb(154, 154, 154);
 }
-.direita{
-  width: 45%;
-  height: 530px;
-  position: relative; 
-  font-size: 15px;
-  
 
- 
-}
 .Imagem_servico{
   width: 100%;
   height: 100%;
 
-}
-.div-texto-esquerda{
-
-  padding: 15px;
-  text-align: left;
-  width: 50%;
-  font-size: 15px;
-  position: absolute;
-  right: 0;
 }
 
 .circulo_botton{
@@ -114,7 +98,7 @@
   height: 25px;
   position: relative;
   border-radius: 51px;
-  right:621px;
+  right:605px;
   top: 270px;
   background-color: rgb(154, 154, 154);
 }
@@ -129,15 +113,16 @@
     display: block;
     width: 85%;
     padding-top: 10px;
-    
+    height: auto;
     margin: auto;
-    
+  
     background-color: rgb(255, 255, 255);
   }
   
   .Principal{
     background-color: rgb(255, 255, 255);
     width: 100%;
+    height: auto;
     top: 440px;
    
   }

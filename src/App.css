@@ -1,10 +1,9 @@
 
 .App{
 
-  width: 100%;
-  height: 850px;
-  position: relative;
-  z-index: -500;
+ padding: 0;
+ margin: 0;
+
 
 }
 
@@ -205,25 +204,32 @@ header nav ul li a{
   font-size: 20px;
 }
 .Div_servicos{
- height: 2400px;
- 
-
-}
-
-.Div_sobre_nos{
+  height: auto;
   width: 100%;
 
-  height: 70%;
- opacity: 1;
  
 
-  
 }
 
-.Div_roda_pe{
-  position: absolute;
-  bottom: 0;
+
+.Div_sobre_nos{
+  width: 100%; 
+  height: auto;
+
  
+ 
+}
+.Contato_Div{
+  height: auto;
+
+}
+.Div_galeria{
+  min-height: auto;
+
+}
+.Roda_pe_div{
+  min-height: auto;
+
 }
 .botao_whtas{
   position: fixed;
@@ -233,18 +239,6 @@ header nav ul li a{
   right: 0;
   margin: 20px;
   color: rgb(44, 202, 38);
-}
-.Div_Contato{
-   width: 100%;
-   height: 350px;
-   background-color: violet;
-}
-.Div_roda_pe{
-  background-color: blueviolet;
-  height: 350px;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
 }
 
 
@@ -258,7 +252,7 @@ header nav ul li a{
 
   }
   .div_superior{
-     height: 500px;
+     height: auto;
   }
 
   .fone_menu{ display: none;}
@@ -266,18 +260,7 @@ header nav ul li a{
  background-color: aliceblue;
  z-index: 500;
   }
-  .me-auto{
-   margin:0;
-   padding: 20px;
-   right: 0;
-   width:60%;
-  
-   height: 450px;
-   border-radius: 10px;
-   opacity: 1;
-   position: absolute;
-   background-color: rgb(206, 21, 21);
-  }
+
   .div_capa{
     display: block;
     height: 250px;
@@ -292,7 +275,7 @@ header nav ul li a{
     height: 40%;
     width: 100%;
   }
-  
+ 
   .div_text h2 , h4{
     font-size: 15px;
     color: black;
@@ -305,34 +288,12 @@ header nav ul li a{
   .div_solicitar_atend span{
     font-size: 11px;
   }
-  .Div_Contato{
+  
 
-     height: 500px;
-     width: 100%;
-     background-color: blue;
-  }
-  .Div_galeria{
-  top: 1200px;
-  position: relative;
-    height: 100%;
-    background-color: turquoise;
-  
-  }
-  
-  
   .botao_whtas{
      width: 50px;
      height: 50px;
      margin: 5px;
   }
-  .Div_servicos{
-    height: 1500px;
-  
-  }
-  .Div_sobre_nos{
-    width: 100%;
-    height: 850px;
-    top: 550px;
-    background-color: aqua;
-  }
+ 
 }

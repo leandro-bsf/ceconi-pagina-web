@@ -7,9 +7,8 @@
   width: 75%;
   height:750px;
   border-radius: 20px;
-  margin: 150px;
+  margin: auto;
   justify-content :center;
-
   
 }
 
@@ -72,7 +71,7 @@
   .image-gallery{
        width: 20%;
     
-       height: 550px;
+       height: auto;
        margin: auto;
        padding: 1px;
        gap: 0;

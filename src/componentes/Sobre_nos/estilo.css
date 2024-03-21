@@ -6,7 +6,7 @@
     display: flex;
     padding: 60px;
     align-items: center;
-   
+    border-radius: 20px;
 }
 .sobre_nos h2{
     font-family: 'Poppins';
@@ -40,11 +40,7 @@
     .sobre_nos{
         display: block;
         width: 100%;
-       
-        top:1150px;
-    
-       position: relative;
-        height: 600px;
+        height: auto;
         
     }
     .text_sobre{
