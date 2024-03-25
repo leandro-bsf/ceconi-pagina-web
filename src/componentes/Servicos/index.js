@@ -9,7 +9,7 @@ import './estilo.css'
   export  default function  Servicos(){
     return ( 
     <div className='Principal'>
-       <div className='Titulo'> <h2>Serviços</h2></div>
+     
     <div className='itens'>
     <motion.div className='direita'
      initial={{opacity: 0 , x: -10}}

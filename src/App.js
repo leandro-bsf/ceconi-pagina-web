@@ -33,14 +33,14 @@ function App() {
                 <a href="#servicos"  >SERVIÇOS</a>
               </li>
               <li>
-                <a href="/"  >SOBRE</a>
+                <a href="#Sobre_nos"  >SOBRE</a>
               </li>
               <li>
-                <a href="/" >GALERIA</a>
+                <a href="#galeria" >GALERIA</a>
               </li>
           
               <li>
-                <a href="/" >CONTATO</a>  
+                <a href="#Contato" >CONTATO</a>  
               </li>
              
             </ul>
@@ -56,20 +56,21 @@ function App() {
         </div>
 
 
-        <div className='Div_servicos'  >
+        <div className='Div_servicos' id='servicos'  >
+        <div className='Titulo'> <h2>Serviços</h2></div>
         <Servicos/> 
         </div>
         
-        <div className='Div_sobre_nos'>
+        <div className='Div_sobre_nos' id='Sobre_nos'>
         <Sobre_nos/>
         </div>
 
-        <div className='Div_galeria'>
+        <div className='Div_galeria' id='galeria'>
         <Galeria/>
         </div>
 
 
-        <div className='Contato_Div'>   <Contato/> </div>
+        <div className='Contato_Div' id='Contato'>   <Contato/> </div>
         <div className='Roda_pe_div'> <Roda_pe/></div>
        
  <IoLogoWhatsapp  className='botao_whtas'/>  
