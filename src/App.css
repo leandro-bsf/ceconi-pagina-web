@@ -13,7 +13,17 @@
   height: 100%;
  
 }
-
+.Titulo_div_servicos{
+  padding: 5px;
+  width: 100%;
+  height: 50px;
+  background-color: #d9d9d9;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  
+  font-family: 'Poppins';
+}
 /* ----------EStilo  Menu----------- */
 
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
@@ -289,7 +299,10 @@ header nav ul li a{
   .div_solicitar_atend span{
     font-size: 11px;
   }
-  
+  .Titulo_div_servicos{
+    padding: 10px;
+    font-size: 20px;
+  }
 
   .botao_whtas{
      width: 50px;

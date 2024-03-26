@@ -57,7 +57,7 @@ function App() {
 
 
         <div className='Div_servicos' id='servicos'  >
-        <div className='Titulo'> <h2>Serviços</h2></div>
+        <div className='Titulo_div_servicos'> <h2>Serviços</h2></div>
         <Servicos/> 
         </div>
         
