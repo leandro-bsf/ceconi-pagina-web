@@ -20,7 +20,7 @@ import './estilo.css'
          <img className='Imagem_servico' src={camera} alt='camera'/>
          </div>
     </motion.div>
-    <div className='circulo'></div>
+
     <div className='divisao'></div>
    
 
@@ -111,7 +111,7 @@ import './estilo.css'
         </div>
     </motion.div>
     <div className='divisao'></div>
-    <div className='circulo'></div>
+
     <motion.div  className='direita'
      initial={{opacity: 0 , x: 10}}
      whileInView={{opacity: 1 , x: 0}}
@@ -122,8 +122,6 @@ import './estilo.css'
          </div>
     </motion.div>
  
-
-    <div className='circulo_botton'></div>
     </div>
  </div>
     );

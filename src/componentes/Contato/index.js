@@ -44,7 +44,7 @@ export  default function  Contato (){
            
             <span>  WhatsApp: +554699170-4814</span> <br/>
             <span>  Endereço: Dois Vizinhos - PR</span> <br/>
-            <span>E-mail:  email@gmail.com    </span>
+            <span>E-mail: cristianoceconi123@gmail.com    </span>
            </div>
            
          

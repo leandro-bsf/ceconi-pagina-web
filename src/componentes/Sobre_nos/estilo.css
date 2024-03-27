@@ -1,17 +1,17 @@
 .sobre_nos{
     width: 95%;
-    height: 500px;
+    height: 550px;;
     background-image: url('../../imagens/caminhao_opacato.png');
     background-size: cover;
     display: flex;
-    padding: 60px;
+  
     align-items: center;
     border-radius: 20px;
 }
 .sobre_nos h2{
     font-family: 'Poppins';
     font-size: 35px;
-    padding: 40px;
+    padding: 60px;
 }
 .sobre_nos{
     font-family: 'Poppins';
@@ -20,11 +20,14 @@
 }
 .sobre_nos span{
      color: black;
+     font-size: 25px;
 }
 .text_sobre{
+    height: 100%;
     width: 50%;
     text-align: center;
-    
+  
+ 
 }
 .foto{
     background-image: url('../../imagens/caminhao2.jpeg');
@@ -32,7 +35,7 @@
     height: 400px;
     background-size: cover;
     border-radius: 50%;
-    margin: 30px;
+    margin: auto;
     position: relative;
   
 }
@@ -44,7 +47,7 @@
         
     }
     .text_sobre{
-     
+        padding: 5px;
         width: 100%;
     }
     .text_sobre{
@@ -58,6 +61,7 @@
     }
     .sobre_nos span{
          color: black;
+         font-size: 15px;
     }
     .foto{
         width: 95%;

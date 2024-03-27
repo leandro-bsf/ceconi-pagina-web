@@ -5,6 +5,9 @@
     height: 100%;
   
 }
+.container_principal{
+    display: block;
+}
 .Menu{
     width: 40%;
     height: 100%;

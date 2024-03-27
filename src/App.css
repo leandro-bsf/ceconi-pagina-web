@@ -24,6 +24,16 @@
   
   font-family: 'Poppins';
 }
+.div_eleve{
+  margin: auto;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 'Poppins';
+  background-color: #d9d9d9;
+  width: 100%
+}
 /* ----------EStilo  Menu----------- */
 
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");

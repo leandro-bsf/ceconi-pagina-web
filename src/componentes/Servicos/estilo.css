@@ -55,7 +55,7 @@
 .div-texto{
   padding: 10px;
   text-align: left;
-  font-size: 15px;
+  font-size: 18px;
   width: 55%;
 }
  .div-texto-esquerda{
@@ -63,8 +63,10 @@
   right: 0; /* Posiciona à esquerda da div externa */
   top: 0; 
   width: 55%;
-  font-size: 15px;
+  font-size: 18px;
   height: 100%;
+  text-align: right;
+  padding: 10px;
 }
 
 .imagem_esquerda{
@@ -84,17 +86,6 @@
 
  
 }
-.circulo{
-  position:absolute;
- left: 49.8%;
- top: 770px;
-  padding: 2px;
-
-  width: 25px;
-  height: 25px;
-  border-radius: 50px;
-  background-color: rgb(154, 154, 154);
-}
 
 .Imagem_servico{
   width: 100%;
@@ -102,22 +93,14 @@
 
 }
 
-.circulo_botton{
-  width: 25px;
-  height: 25px;
-  position: relative;
-  border-radius: 51px;
-  right:605px;
-  top: 270px;
-  background-color: rgb(154, 154, 154);
-}
+
 .Div_mobile{
   display: none;
 }
 @media (max-width: 750px)  {
-  .circulo_botton{display: none;}
+ 
   .divisao{display: none;}
-  .circulo{display: none;}
+
   .itens{
     display: block;
     width: 85%;

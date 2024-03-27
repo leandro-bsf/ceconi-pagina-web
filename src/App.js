@@ -71,9 +71,14 @@ function App() {
 
 
         <div className='Contato_Div' id='Contato'>   <Contato/> </div>
-        <div className='Roda_pe_div'> <Roda_pe/></div>
+        <div className='Roda_pe_div'> <Roda_pe/>
+        <div className='div_eleve'>
+     <span > Desenvolvido Por Eleve Tech.</span></div></div>
        
- <IoLogoWhatsapp  className='botao_whtas'/>  
+       <a href='https://wa.me/5546999704814?text=Ol%C3%A1+gostaria+de+um+or%C3%A7amento%2C+Vim+atrav%C3%A9s+do+site.' target="_blank">
+       <IoLogoWhatsapp  className='botao_whtas'  />  
+       </a>
+
     </div>
   );
 }
