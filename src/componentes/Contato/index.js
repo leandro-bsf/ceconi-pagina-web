@@ -39,11 +39,10 @@ export  default function  Contato (){
         <div className='Contato'>
         <div className='div_informacao'>
           <img src={logo} alt='logo' className='logo_contato' />
-          <h3>Informações</h3>
+          <h3 style={{ color: 'rgb(209, 140, 12)'}}>Informações</h3>
            <div className='Dados_contato'>
-           
+           <span>  Endereço: Dois Vizinhos - PR</span> <br/>
             <span>  WhatsApp: +554699170-4814</span> <br/>
-            <span>  Endereço: Dois Vizinhos - PR</span> <br/>
             <span>E-mail: cristianoceconi123@gmail.com    </span>
            </div>
            

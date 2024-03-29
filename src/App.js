@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="App">
-              <div className='div_superior'>
+        <div className='div_superior'>
           <header>
     <div className="container">
       <img className="logo-cyan" src={logo} alt="logo Ceconi"/>

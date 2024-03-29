@@ -17,14 +17,15 @@ function App() {
    const  images = [
     imagem1,
     imagem2,
+    imagem9,
+    imagem10,
     imagem3,
     imagem4,
     imagem5,
     imagem6,
     imagem7,
-    imagem8,
-    imagem9,
-    imagem10
+    imagem8
+   
    ];
    const [selectedImageIndex, setSelectedImageIndex] = useState(null);
 

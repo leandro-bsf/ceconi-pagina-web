@@ -28,8 +28,8 @@ export default function Roda_pe(){
              <ul>
                     <h3>Contato</h3>
                     <div className="Contato_item">
-                    <FaMapMarkerAlt style={{color: 'orange'}} /> <span style={{color: 'orange'}}>Dois Vizinhos  </span> <br/>
-                    <FaPhoneAlt style={{color: 'orange'}}   /> <span style={{color: 'orange'}}>46919191919 </span>
+                    <FaMapMarkerAlt style={{ color: 'rgb(209, 140, 12)'}} size={15}/> <span style={{ color: 'rgb(209, 140, 12)'}}>Dois Vizinhos  </span> <br/>
+                    <FaPhoneAlt style={{color: 'rgb(209, 140, 12)'}}  size={15}  /> <span style={{ color: 'rgb(209, 140, 12)'}}>+554699170-4814</span>
                     </div>
                   
             </ul>
